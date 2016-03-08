@@ -1,31 +1,50 @@
-name = glass_spider_7
-description =  glass_spider_7 theme.
-core = 7.x
-base theme = aurora
+name = Glass Spider 7
+description = A Drupal 7 version of Glass Spider, a lightweight and flexible Drupal base theme designed for GUI-based SASS compiling
+screenshot = images/optimized/screenshot.gif
+core = "7.x"
+project = "basic"
+engine = phptemplate
 
-; ========================================
-; Regions
-; ========================================
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
 
-regions[header]       = 'Header'
-regions[main_prefix]  = 'Main Region Prefix'
-regions[content]      = 'Main Region'
-regions[main_suffix]  = 'Main Region Suffix'
-regions[footer]       = 'Footer'
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
 
-; ========================================
 ; Stylesheets
-; ========================================
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
 
-stylesheets[all][] = 'css/style.css'
-stylesheets[print][] = 'css/print.css'
-
-; ========================================
 ; Scripts
-; ========================================
+scripts[] = js/scripts.js
 
-; ========================================
-; Modernizr
-; ========================================
+settings[glass_spider_7_tabs] = 1
+settings[glass_spider_7_breadcrumb] = 1
+settings[glass_spider_7_breadcrumb_home] = 1
+settings[glass_spider_7_breadcrumb_separator] = »
+settings[clear_registry] = 0
+settings[glass_spider_7_ie_enabled] = 0
+settings[glass_spider_7_ie_enabled_versions][ie8] = 0
+settings[glass_spider_7_ie_enabled_versions][ie9] = 0
+settings[glass_spider_7_ie_enabled_versions][ie10] = 0
+; Information added by Drupal.org packaging script on 2015-05-20
+version = "7.x-4.2"
+core = "7.x"
+project = "basic"
+datestamp = "1432153992"
 
 modernizr[tests][] = css_boxsizing
