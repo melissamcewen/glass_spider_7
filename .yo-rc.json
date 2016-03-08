@@ -1,0 +1,16 @@
+{
+  "generator-drupal-theme": {
+    "projectName": "glass_spider_7",
+    "projectSlug": "glass_spider_7",
+    "baseTheme": "aurora",
+    "baseThemeSettings": {
+      "auroraType": "aurora"
+    },
+    "sassDir": "sass",
+    "cssDir": "css",
+    "jsDir": "js",
+    "imgDir": "img",
+    "fontsDir": "fonts",
+    "templateDir": "tpl"
+  }
+}
