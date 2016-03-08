@@ -30,7 +30,7 @@ stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
 
 ; Scripts
-scripts[] = js/scripts.js
+scripts[] = js/script.js
 
 settings[glass_spider_7_tabs] = 1
 settings[glass_spider_7_breadcrumb] = 1

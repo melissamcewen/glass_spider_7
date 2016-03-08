@@ -6,3 +6,10 @@
 //
 // All styling, non box model properties go here
 ////////////////////////
+
+body{
+  background-color: red;
+  @include breakpoint($desktop){
+    background-color: orange;
+  }
+}

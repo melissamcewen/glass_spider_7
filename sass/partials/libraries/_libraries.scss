@@ -7,10 +7,36 @@ note you do not need to add the .scss extension or the _ prefix
 below are some common examples you can comment out
 */
 
+////////////////////////
+// Frameworks
+////////////////////////
+
 /* -- Delete this line if you want to use this library
 //Bootstrap
 //Download this stylesheets folder and rename it bootstrap
 //https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets
 //you'll also need to add the js files to the js directory if you want full functionality
 @import 'bootstrap/bootstrap';
+// */
+
+////////////////////////
+// Media Query Handling
+////////////////////////
+/* -- Delete this line if you want to use this library
+//Breakpoint
+//Download this stylesheets folder and rename it bootstrap
+//https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets
+//you'll also need to add the js files to the js directory if you want full functionality
+@import 'breakpoint/breakpoint';
+// */
+
+////////////////////////
+// Grid Systems
+////////////////////////
+
+/* -- Delete this line if you want to use this library
+//Susy
+//Follow the instructions here http://susydocs.oddbird.net/en/latest/install/#manual-start
+//Name your folder Susy and include your scss in _susy.scss
+@import 'susy/susy';
 // */
