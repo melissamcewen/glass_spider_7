@@ -69,7 +69,10 @@
 
               <?php print render($title_suffix); ?>
               <?php print $messages; ?>
-              <?php print render($page['help']); ?>
+              <?php if ($page['help']): ?>
+                <div id="help"><?php print render($page['help']) ?></div>
+              <?php endif; ?>
+
 
               <?php if (render($tabs)): ?>
                 <div class="tabs"><?php print render($tabs); ?></div>
